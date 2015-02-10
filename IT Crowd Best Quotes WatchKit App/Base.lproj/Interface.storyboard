@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6750" systemVersion="14B25" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6735"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Quotes-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="Quotes" id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <table alignment="left" id="lwV-OW-V4r">
+                            <items>
+                                <tableRow identifier="QuoteTableRow" id="ieK-fI-axK" customClass="ICBQuoteTableRow">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" spacing="1" id="wAL-2O-IQu">
+                                        <items>
+                                            <group width="0.25" height="1" alignment="left" verticalAlignment="center" id="0ad-A0-4tH">
+                                                <items>
+                                                    <group width="26" height="26" alignment="center" verticalAlignment="center" backgroundImage="moss" radius="13" id="jWm-Zd-fdy"/>
+                                                </items>
+                                            </group>
+                                            <group width="0.80000000000000004" alignment="left" layout="vertical" spacing="0.0" id="Dg6-Pu-DQA">
+                                                <items>
+                                                    <label width="1" alignment="left" text="Name" id="mJE-7b-IKq">
+                                                        <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                                    </label>
+                                                    <label width="1" alignment="left" text="Quote" id="12T-tK-NLy">
+                                                        <fontDescription key="font" type="system" pointSize="14"/>
+                                                    </label>
+                                                </items>
+                                                <edgeInsets key="margins" left="2" right="0.0" top="4" bottom="4"/>
+                                            </group>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="characterNameLabel" destination="mJE-7b-IKq" id="u7C-Mc-vE6"/>
+                                        <outlet property="characterPicture" destination="jWm-Zd-fdy" id="6KZ-eH-1Tl"/>
+                                        <outlet property="quoteLabel" destination="12T-tK-NLy" id="9CO-yY-M4G"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="lwV-OW-V4r" id="5ao-qe-HmP"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+        <!--Quote-->
+        <scene sceneID="zN8-XW-jsD">
+            <objects>
+                <controller identifier="QuoteDetailInterfaceController" title="Quote" id="2pp-zi-yOI" customClass="ICBQuoteDetailInterfaceController">
+                    <items>
+                        <group width="50" height="50" alignment="center" backgroundImage="jen" radius="25" id="Sum-5d-T3M"/>
+                        <group width="1" alignment="left" layout="vertical" spacing="7" id="bLn-ev-V3Q">
+                            <items>
+                                <label width="1" alignment="left" text="Name" textAlignment="center" id="jTq-VB-ev2">
+                                    <fontDescription key="font" type="boldSystem" pointSize="18"/>
+                                </label>
+                                <label width="1" alignment="left" text="Quote" textAlignment="center" numberOfLines="0" id="wwo-Jf-SdJ"/>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="characterImage" destination="Sum-5d-T3M" id="UsK-hf-guk"/>
+                        <outlet property="characterNameLabel" destination="jTq-VB-ev2" id="Ck2-Zs-QsW"/>
+                        <outlet property="quoteLabel" destination="wwo-Jf-SdJ" id="vNE-s1-qPw"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="625" y="350"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36D78EEB1A893D5400BB7A7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D78EEA1A893D5400BB7A7E /* main.m */; };
+		36D78EEE1A893D5400BB7A7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D78EED1A893D5400BB7A7E /* AppDelegate.m */; };
+		36D78EF11A893D5400BB7A7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D78EF01A893D5400BB7A7E /* ViewController.m */; };
+		36D78EF41A893D5400BB7A7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D78EF21A893D5400BB7A7E /* Main.storyboard */; };
+		36D78EF61A893D5400BB7A7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D78EF51A893D5400BB7A7E /* Images.xcassets */; };
+		36D78EF91A893D5400BB7A7E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D78EF71A893D5400BB7A7E /* LaunchScreen.xib */; };
+		36D78F051A893D5400BB7A7E /* IT_Crowd_Best_QuotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D78F041A893D5400BB7A7E /* IT_Crowd_Best_QuotesTests.m */; };
+		36D78F181A893D8200BB7A7E /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D78F171A893D8200BB7A7E /* InterfaceController.m */; };
+		36D78F1A1A893D8200BB7A7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D78F191A893D8200BB7A7E /* Images.xcassets */; };
+		36D78F1E1A893D8200BB7A7E /* IT Crowd Best Quotes WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 36D78F1D1A893D8200BB7A7E /* IT Crowd Best Quotes WatchKit App.app */; };
+		36D78F261A893D8200BB7A7E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D78F241A893D8200BB7A7E /* Interface.storyboard */; };
+		36D78F281A893D8200BB7A7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D78F271A893D8200BB7A7E /* Images.xcassets */; };
+		36D78F2B1A893D8200BB7A7E /* IT Crowd Best Quotes WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 36D78F121A893D8200BB7A7E /* IT Crowd Best Quotes WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		36D78F351A893DF200BB7A7E /* ICBQuoteSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D78F341A893DF200BB7A7E /* ICBQuoteSource.m */; };
+		36D78F381A896C0000BB7A7E /* ICBQuoteTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D78F371A896C0000BB7A7E /* ICBQuoteTableRow.m */; };
+		36D78F391A896D9B00BB7A7E /* ICBQuoteSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D78F341A893DF200BB7A7E /* ICBQuoteSource.m */; };
+		36E4DD621A89724900866D0D /* ICBQuoteDetailInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E4DD611A89724900866D0D /* ICBQuoteDetailInterfaceController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36D78EFF1A893D5400BB7A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36D78EDD1A893D5400BB7A7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36D78EE41A893D5400BB7A7E;
+			remoteInfo = "IT Crowd Best Quotes";
+		};
+		36D78F1F1A893D8200BB7A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36D78EDD1A893D5400BB7A7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36D78F1C1A893D8200BB7A7E;
+			remoteInfo = "IT Crowd Best Quotes WatchKit App";
+		};
+		36D78F291A893D8200BB7A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36D78EDD1A893D5400BB7A7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36D78F111A893D8200BB7A7E;
+			remoteInfo = "IT Crowd Best Quotes WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		36D78F321A893D8200BB7A7E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				36D78F2B1A893D8200BB7A7E /* IT Crowd Best Quotes WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		36D78EE51A893D5400BB7A7E /* IT Crowd Best Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IT Crowd Best Quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D78EE91A893D5400BB7A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36D78EEA1A893D5400BB7A7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36D78EEC1A893D5400BB7A7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36D78EED1A893D5400BB7A7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36D78EEF1A893D5400BB7A7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36D78EF01A893D5400BB7A7E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36D78EF31A893D5400BB7A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36D78EF51A893D5400BB7A7E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		36D78EF81A893D5400BB7A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		36D78EFE1A893D5400BB7A7E /* IT Crowd Best QuotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IT Crowd Best QuotesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D78F031A893D5400BB7A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36D78F041A893D5400BB7A7E /* IT_Crowd_Best_QuotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IT_Crowd_Best_QuotesTests.m; sourceTree = "<group>"; };
+		36D78F121A893D8200BB7A7E /* IT Crowd Best Quotes WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "IT Crowd Best Quotes WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D78F151A893D8200BB7A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36D78F161A893D8200BB7A7E /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		36D78F171A893D8200BB7A7E /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		36D78F191A893D8200BB7A7E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		36D78F1D1A893D8200BB7A7E /* IT Crowd Best Quotes WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IT Crowd Best Quotes WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D78F231A893D8200BB7A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36D78F251A893D8200BB7A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		36D78F271A893D8200BB7A7E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		36D78F331A893DF200BB7A7E /* ICBQuoteSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICBQuoteSource.h; sourceTree = "<group>"; };
+		36D78F341A893DF200BB7A7E /* ICBQuoteSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICBQuoteSource.m; sourceTree = "<group>"; };
+		36D78F361A896C0000BB7A7E /* ICBQuoteTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICBQuoteTableRow.h; sourceTree = "<group>"; };
+		36D78F371A896C0000BB7A7E /* ICBQuoteTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICBQuoteTableRow.m; sourceTree = "<group>"; };
+		36E4DD601A89724900866D0D /* ICBQuoteDetailInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICBQuoteDetailInterfaceController.h; sourceTree = "<group>"; };
+		36E4DD611A89724900866D0D /* ICBQuoteDetailInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICBQuoteDetailInterfaceController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36D78EE21A893D5400BB7A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D78EFB1A893D5400BB7A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D78F0F1A893D8200BB7A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36D78EDC1A893D5400BB7A7E = {
+			isa = PBXGroup;
+			children = (
+				36D78EE71A893D5400BB7A7E /* IT Crowd Best Quotes */,
+				36D78F011A893D5400BB7A7E /* IT Crowd Best QuotesTests */,
+				36D78F131A893D8200BB7A7E /* IT Crowd Best Quotes WatchKit Extension */,
+				36D78F211A893D8200BB7A7E /* IT Crowd Best Quotes WatchKit App */,
+				36D78EE61A893D5400BB7A7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36D78EE61A893D5400BB7A7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36D78EE51A893D5400BB7A7E /* IT Crowd Best Quotes.app */,
+				36D78EFE1A893D5400BB7A7E /* IT Crowd Best QuotesTests.xctest */,
+				36D78F121A893D8200BB7A7E /* IT Crowd Best Quotes WatchKit Extension.appex */,
+				36D78F1D1A893D8200BB7A7E /* IT Crowd Best Quotes WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36D78EE71A893D5400BB7A7E /* IT Crowd Best Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				36D78EEC1A893D5400BB7A7E /* AppDelegate.h */,
+				36D78EED1A893D5400BB7A7E /* AppDelegate.m */,
+				36D78EEF1A893D5400BB7A7E /* ViewController.h */,
+				36D78EF01A893D5400BB7A7E /* ViewController.m */,
+				36D78F331A893DF200BB7A7E /* ICBQuoteSource.h */,
+				36D78F341A893DF200BB7A7E /* ICBQuoteSource.m */,
+				36D78EF21A893D5400BB7A7E /* Main.storyboard */,
+				36D78EF51A893D5400BB7A7E /* Images.xcassets */,
+				36D78EF71A893D5400BB7A7E /* LaunchScreen.xib */,
+				36D78EE81A893D5400BB7A7E /* Supporting Files */,
+			);
+			path = "IT Crowd Best Quotes";
+			sourceTree = "<group>";
+		};
+		36D78EE81A893D5400BB7A7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36D78EE91A893D5400BB7A7E /* Info.plist */,
+				36D78EEA1A893D5400BB7A7E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36D78F011A893D5400BB7A7E /* IT Crowd Best QuotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				36D78F041A893D5400BB7A7E /* IT_Crowd_Best_QuotesTests.m */,
+				36D78F021A893D5400BB7A7E /* Supporting Files */,
+			);
+			path = "IT Crowd Best QuotesTests";
+			sourceTree = "<group>";
+		};
+		36D78F021A893D5400BB7A7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36D78F031A893D5400BB7A7E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36D78F131A893D8200BB7A7E /* IT Crowd Best Quotes WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				36D78F161A893D8200BB7A7E /* InterfaceController.h */,
+				36D78F171A893D8200BB7A7E /* InterfaceController.m */,
+				36E4DD601A89724900866D0D /* ICBQuoteDetailInterfaceController.h */,
+				36E4DD611A89724900866D0D /* ICBQuoteDetailInterfaceController.m */,
+				36D78F361A896C0000BB7A7E /* ICBQuoteTableRow.h */,
+				36D78F371A896C0000BB7A7E /* ICBQuoteTableRow.m */,
+				36D78F191A893D8200BB7A7E /* Images.xcassets */,
+				36D78F141A893D8200BB7A7E /* Supporting Files */,
+			);
+			path = "IT Crowd Best Quotes WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		36D78F141A893D8200BB7A7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36D78F151A893D8200BB7A7E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36D78F211A893D8200BB7A7E /* IT Crowd Best Quotes WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				36D78F241A893D8200BB7A7E /* Interface.storyboard */,
+				36D78F271A893D8200BB7A7E /* Images.xcassets */,
+				36D78F221A893D8200BB7A7E /* Supporting Files */,
+			);
+			path = "IT Crowd Best Quotes WatchKit App";
+			sourceTree = "<group>";
+		};
+		36D78F221A893D8200BB7A7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36D78F231A893D8200BB7A7E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36D78EE41A893D5400BB7A7E /* IT Crowd Best Quotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D78F081A893D5400BB7A7E /* Build configuration list for PBXNativeTarget "IT Crowd Best Quotes" */;
+			buildPhases = (
+				36D78EE11A893D5400BB7A7E /* Sources */,
+				36D78EE21A893D5400BB7A7E /* Frameworks */,
+				36D78EE31A893D5400BB7A7E /* Resources */,
+				36D78F321A893D8200BB7A7E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36D78F2A1A893D8200BB7A7E /* PBXTargetDependency */,
+			);
+			name = "IT Crowd Best Quotes";
+			productName = "IT Crowd Best Quotes";
+			productReference = 36D78EE51A893D5400BB7A7E /* IT Crowd Best Quotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36D78EFD1A893D5400BB7A7E /* IT Crowd Best QuotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D78F0B1A893D5400BB7A7E /* Build configuration list for PBXNativeTarget "IT Crowd Best QuotesTests" */;
+			buildPhases = (
+				36D78EFA1A893D5400BB7A7E /* Sources */,
+				36D78EFB1A893D5400BB7A7E /* Frameworks */,
+				36D78EFC1A893D5400BB7A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36D78F001A893D5400BB7A7E /* PBXTargetDependency */,
+			);
+			name = "IT Crowd Best QuotesTests";
+			productName = "IT Crowd Best QuotesTests";
+			productReference = 36D78EFE1A893D5400BB7A7E /* IT Crowd Best QuotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36D78F111A893D8200BB7A7E /* IT Crowd Best Quotes WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D78F2F1A893D8200BB7A7E /* Build configuration list for PBXNativeTarget "IT Crowd Best Quotes WatchKit Extension" */;
+			buildPhases = (
+				36D78F0E1A893D8200BB7A7E /* Sources */,
+				36D78F0F1A893D8200BB7A7E /* Frameworks */,
+				36D78F101A893D8200BB7A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36D78F201A893D8200BB7A7E /* PBXTargetDependency */,
+			);
+			name = "IT Crowd Best Quotes WatchKit Extension";
+			productName = "IT Crowd Best Quotes WatchKit Extension";
+			productReference = 36D78F121A893D8200BB7A7E /* IT Crowd Best Quotes WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		36D78F1C1A893D8200BB7A7E /* IT Crowd Best Quotes WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D78F2C1A893D8200BB7A7E /* Build configuration list for PBXNativeTarget "IT Crowd Best Quotes WatchKit App" */;
+			buildPhases = (
+				36D78F1B1A893D8200BB7A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IT Crowd Best Quotes WatchKit App";
+			productName = "IT Crowd Best Quotes WatchKit App";
+			productReference = 36D78F1D1A893D8200BB7A7E /* IT Crowd Best Quotes WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36D78EDD1A893D5400BB7A7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "3 Sided Cube";
+				TargetAttributes = {
+					36D78EE41A893D5400BB7A7E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					36D78EFD1A893D5400BB7A7E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 36D78EE41A893D5400BB7A7E;
+					};
+					36D78F111A893D8200BB7A7E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					36D78F1C1A893D8200BB7A7E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 36D78EE01A893D5400BB7A7E /* Build configuration list for PBXProject "IT Crowd Best Quotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36D78EDC1A893D5400BB7A7E;
+			productRefGroup = 36D78EE61A893D5400BB7A7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36D78EE41A893D5400BB7A7E /* IT Crowd Best Quotes */,
+				36D78EFD1A893D5400BB7A7E /* IT Crowd Best QuotesTests */,
+				36D78F111A893D8200BB7A7E /* IT Crowd Best Quotes WatchKit Extension */,
+				36D78F1C1A893D8200BB7A7E /* IT Crowd Best Quotes WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36D78EE31A893D5400BB7A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D78EF41A893D5400BB7A7E /* Main.storyboard in Resources */,
+				36D78EF91A893D5400BB7A7E /* LaunchScreen.xib in Resources */,
+				36D78EF61A893D5400BB7A7E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D78EFC1A893D5400BB7A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D78F101A893D8200BB7A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D78F1A1A893D8200BB7A7E /* Images.xcassets in Resources */,
+				36D78F1E1A893D8200BB7A7E /* IT Crowd Best Quotes WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D78F1B1A893D8200BB7A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D78F261A893D8200BB7A7E /* Interface.storyboard in Resources */,
+				36D78F281A893D8200BB7A7E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36D78EE11A893D5400BB7A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D78F351A893DF200BB7A7E /* ICBQuoteSource.m in Sources */,
+				36D78EF11A893D5400BB7A7E /* ViewController.m in Sources */,
+				36D78EEE1A893D5400BB7A7E /* AppDelegate.m in Sources */,
+				36D78EEB1A893D5400BB7A7E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D78EFA1A893D5400BB7A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D78F051A893D5400BB7A7E /* IT_Crowd_Best_QuotesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D78F0E1A893D8200BB7A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D78F181A893D8200BB7A7E /* InterfaceController.m in Sources */,
+				36D78F381A896C0000BB7A7E /* ICBQuoteTableRow.m in Sources */,
+				36E4DD621A89724900866D0D /* ICBQuoteDetailInterfaceController.m in Sources */,
+				36D78F391A896D9B00BB7A7E /* ICBQuoteSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36D78F001A893D5400BB7A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36D78EE41A893D5400BB7A7E /* IT Crowd Best Quotes */;
+			targetProxy = 36D78EFF1A893D5400BB7A7E /* PBXContainerItemProxy */;
+		};
+		36D78F201A893D8200BB7A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36D78F1C1A893D8200BB7A7E /* IT Crowd Best Quotes WatchKit App */;
+			targetProxy = 36D78F1F1A893D8200BB7A7E /* PBXContainerItemProxy */;
+		};
+		36D78F2A1A893D8200BB7A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36D78F111A893D8200BB7A7E /* IT Crowd Best Quotes WatchKit Extension */;
+			targetProxy = 36D78F291A893D8200BB7A7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36D78EF21A893D5400BB7A7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36D78EF31A893D5400BB7A7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36D78EF71A893D5400BB7A7E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36D78EF81A893D5400BB7A7E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		36D78F241A893D8200BB7A7E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36D78F251A893D8200BB7A7E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36D78F061A893D5400BB7A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36D78F071A893D5400BB7A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36D78F091A893D5400BB7A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IT Crowd Best Quotes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36D78F0A1A893D5400BB7A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IT Crowd Best Quotes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		36D78F0C1A893D5400BB7A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IT Crowd Best QuotesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IT Crowd Best Quotes.app/IT Crowd Best Quotes";
+			};
+			name = Debug;
+		};
+		36D78F0D1A893D5400BB7A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IT Crowd Best QuotesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IT Crowd Best Quotes.app/IT Crowd Best Quotes";
+			};
+			name = Release;
+		};
+		36D78F2D1A893D8200BB7A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = IT_Crowd_Best_Quotes_WatchKit_Extension;
+				INFOPLIST_FILE = "IT Crowd Best Quotes WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		36D78F2E1A893D8200BB7A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = IT_Crowd_Best_Quotes_WatchKit_Extension;
+				INFOPLIST_FILE = "IT Crowd Best Quotes WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		36D78F301A893D8200BB7A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IT Crowd Best Quotes WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		36D78F311A893D8200BB7A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "IT Crowd Best Quotes WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36D78EE01A893D5400BB7A7E /* Build configuration list for PBXProject "IT Crowd Best Quotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D78F061A893D5400BB7A7E /* Debug */,
+				36D78F071A893D5400BB7A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36D78F081A893D5400BB7A7E /* Build configuration list for PBXNativeTarget "IT Crowd Best Quotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D78F091A893D5400BB7A7E /* Debug */,
+				36D78F0A1A893D5400BB7A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36D78F0B1A893D5400BB7A7E /* Build configuration list for PBXNativeTarget "IT Crowd Best QuotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D78F0C1A893D5400BB7A7E /* Debug */,
+				36D78F0D1A893D5400BB7A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36D78F2C1A893D8200BB7A7E /* Build configuration list for PBXNativeTarget "IT Crowd Best Quotes WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D78F2D1A893D8200BB7A7E /* Debug */,
+				36D78F2E1A893D8200BB7A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36D78F2F1A893D8200BB7A7E /* Build configuration list for PBXNativeTarget "IT Crowd Best Quotes WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D78F301A893D8200BB7A7E /* Debug */,
+				36D78F311A893D8200BB7A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36D78EDD1A893D5400BB7A7E /* Project object */;
+}
