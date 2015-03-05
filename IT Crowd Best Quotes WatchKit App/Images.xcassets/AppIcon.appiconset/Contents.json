@@ -33,18 +33,8 @@
     {
       "size" : "40x40",
       "idiom" : "watch",
-      "scale" : "2x",
-      "filename" : "f2e6d121-d965-4a09-ab66-dbaa41290467 copy-5.png",
       "role" : "appLauncher",
-      "subtype" : "38mm"
-    },
-    {
-      "size" : "44x44",
-      "idiom" : "watch",
-      "scale" : "2x",
-      "filename" : "f2e6d121-d965-4a09-ab66-dbaa41290467 copy-4.png",
-      "role" : "appLauncher",
-      "subtype" : "42mm"
+      "scale" : "2x"
     },
     {
       "size" : "86x86",
@@ -60,6 +50,23 @@
       "scale" : "2x",
       "filename" : "f2e6d121-d965-4a09-ab66-dbaa41290467 copy-2.png",
       "role" : "quickLook",
+      "subtype" : "42mm"
+    },
+    {
+      "role" : "appLauncher",
+      "size" : "40x40",
+      "idiom" : "watch",
+      "filename" : "f2e6d121-d965-4a09-ab66-dbaa41290467 copy-5.png",
+      "subtype" : "38mm",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "scale" : "2x",
+      "idiom" : "watch",
+      "filename" : "f2e6d121-d965-4a09-ab66-dbaa41290467 copy-4.png",
+      "unassigned" : true,
+      "role" : "appLauncher",
       "subtype" : "42mm"
     }
   ],
