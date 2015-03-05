@@ -20,9 +20,9 @@
 		36D78F261A893D8200BB7A7E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D78F241A893D8200BB7A7E /* Interface.storyboard */; };
 		36D78F281A893D8200BB7A7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D78F271A893D8200BB7A7E /* Images.xcassets */; };
 		36D78F2B1A893D8200BB7A7E /* IT Crowd Best Quotes WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 36D78F121A893D8200BB7A7E /* IT Crowd Best Quotes WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		36D78F351A893DF200BB7A7E /* ICBQuoteSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D78F341A893DF200BB7A7E /* ICBQuoteSource.m */; };
 		36D78F381A896C0000BB7A7E /* ICBQuoteTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D78F371A896C0000BB7A7E /* ICBQuoteTableRow.m */; };
-		36D78F391A896D9B00BB7A7E /* ICBQuoteSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D78F341A893DF200BB7A7E /* ICBQuoteSource.m */; };
+		36D86BD21AA8D55C0097A1B2 /* ICBQuoteSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D86BD11AA8D55C0097A1B2 /* ICBQuoteSource.m */; };
+		36D86BD31AA8D57B0097A1B2 /* ICBQuoteSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D86BD11AA8D55C0097A1B2 /* ICBQuoteSource.m */; };
 		36E4DD621A89724900866D0D /* ICBQuoteDetailInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E4DD611A89724900866D0D /* ICBQuoteDetailInterfaceController.m */; };
 /* End PBXBuildFile section */
 
@@ -87,10 +87,10 @@
 		36D78F231A893D8200BB7A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36D78F251A893D8200BB7A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		36D78F271A893D8200BB7A7E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		36D78F331A893DF200BB7A7E /* ICBQuoteSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICBQuoteSource.h; sourceTree = "<group>"; };
-		36D78F341A893DF200BB7A7E /* ICBQuoteSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICBQuoteSource.m; sourceTree = "<group>"; };
 		36D78F361A896C0000BB7A7E /* ICBQuoteTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICBQuoteTableRow.h; sourceTree = "<group>"; };
 		36D78F371A896C0000BB7A7E /* ICBQuoteTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICBQuoteTableRow.m; sourceTree = "<group>"; };
+		36D86BD01AA8D55C0097A1B2 /* ICBQuoteSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICBQuoteSource.h; path = "../IT Crowd Best Quotes/Quotes Source/ICBQuoteSource.h"; sourceTree = "<group>"; };
+		36D86BD11AA8D55C0097A1B2 /* ICBQuoteSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ICBQuoteSource.m; path = "../IT Crowd Best Quotes/Quotes Source/ICBQuoteSource.m"; sourceTree = "<group>"; };
 		36E4DD601A89724900866D0D /* ICBQuoteDetailInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICBQuoteDetailInterfaceController.h; sourceTree = "<group>"; };
 		36E4DD611A89724900866D0D /* ICBQuoteDetailInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICBQuoteDetailInterfaceController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,8 +149,6 @@
 				36D78EED1A893D5400BB7A7E /* AppDelegate.m */,
 				36D78EEF1A893D5400BB7A7E /* ViewController.h */,
 				36D78EF01A893D5400BB7A7E /* ViewController.m */,
-				36D78F331A893DF200BB7A7E /* ICBQuoteSource.h */,
-				36D78F341A893DF200BB7A7E /* ICBQuoteSource.m */,
 				36D78EF21A893D5400BB7A7E /* Main.storyboard */,
 				36D78EF51A893D5400BB7A7E /* Images.xcassets */,
 				36D78EF71A893D5400BB7A7E /* LaunchScreen.xib */,
@@ -194,6 +192,8 @@
 				36E4DD611A89724900866D0D /* ICBQuoteDetailInterfaceController.m */,
 				36D78F361A896C0000BB7A7E /* ICBQuoteTableRow.h */,
 				36D78F371A896C0000BB7A7E /* ICBQuoteTableRow.m */,
+				36D86BD01AA8D55C0097A1B2 /* ICBQuoteSource.h */,
+				36D86BD11AA8D55C0097A1B2 /* ICBQuoteSource.m */,
 				36D78F191A893D8200BB7A7E /* Images.xcassets */,
 				36D78F141A893D8200BB7A7E /* Supporting Files */,
 			);
@@ -387,8 +387,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36D78F351A893DF200BB7A7E /* ICBQuoteSource.m in Sources */,
 				36D78EF11A893D5400BB7A7E /* ViewController.m in Sources */,
+				36D86BD21AA8D55C0097A1B2 /* ICBQuoteSource.m in Sources */,
 				36D78EEE1A893D5400BB7A7E /* AppDelegate.m in Sources */,
 				36D78EEB1A893D5400BB7A7E /* main.m in Sources */,
 			);
@@ -408,8 +408,8 @@
 			files = (
 				36D78F181A893D8200BB7A7E /* InterfaceController.m in Sources */,
 				36D78F381A896C0000BB7A7E /* ICBQuoteTableRow.m in Sources */,
+				36D86BD31AA8D57B0097A1B2 /* ICBQuoteSource.m in Sources */,
 				36E4DD621A89724900866D0D /* ICBQuoteDetailInterfaceController.m in Sources */,
-				36D78F391A896D9B00BB7A7E /* ICBQuoteSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
